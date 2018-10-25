@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog - Isabella Grigg-Eyley</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header class="headerbar">
+        <div id="headertitle">
+            <a href="https://isabella-grigg-eyley.github.io/index.html"><h1>Isabella <strong>Grigg-Eyley</strong></h1></a>
+        </div>
+        <div class="headerbar-right">
+            <nav>
+                <ul>
+                    <li><a href="https://isabella-grigg-eyley.github.io/blog/index.html"><h2>Blogs</h2></a></li>
+                    <li><a href="https://isabella-grigg-eyley.github.io/about.html"><h2>About</h2></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
+        <article class="blog">
+            <header class="title">
+                <div class="row">
+                    <h4 class="nine columns">Technical Blog, Sprint 6: JavaScript Language</h4>
+                    <h5 class="three columns date"><small>30 July, 2018</small></h5>
+                </div>
+            </header>
+            <div>
+                <h5>In the JavaScript language, describe all the use cases for each of:</h5>
+                <ul>
+                    <li>Parentheses</li>
+                    <li>Brackets</li>
+                    <li>Braces</li>
+                    <li>Single quotes</li>
+                    <li>Double quotes</li>
+                </ul>
+                <p>
+                    <b>Parentheses:</b> Parentheses have many uses. One is to simply group a 
+                    collection of operators and statements- for example, x * 1 + 2 is different to 
+                    x * (1 + 2). It's also used as a way to pass information to functions, inbuilt and 
+                    custom written. For example, <i>if</i> statements require something that outputs to 
+                    a value of <i> true</i> in order to continue, and these "somethings" are contained 
+                    in parentheses. Another example is if a function is written needing values: these 
+                    values are passed in inside parentheses.
+                </p>
+                <p>
+                    <b>Brackets:</b> Brackets are used to access information inside objects or arrays. 
+                    For example, writing myArray[3] will return the value at index 3 (so the fourth value 
+                    stored in the array). It's also one of two methods to access information inside an object 
+                    (the other being dot notation, or myObject.theValueIWant)- it's particularly useful if the 
+                    key name of that value is a string with spaces, as that won't work with dot notation. So the 
+                    syntax there would be myObject["The Value I Want"].
+                </p>
+                <p>
+                    <b>Braces:</b> Braces contain blocks of code and are essentially wrappers to indicate to 
+                    both the reader and the compiler where a series of code statements end. Without these 
+                    code would be much harder to read and ambiguous.
+                </p>
+                <p>
+                    <b>Single and double quotes:</b> In Javascript, unlike other languages, both single and 
+                    double quotes have the same meaning: they indicate the content within refers to a string. 
+                    (In other languages, single quotes refer to character type content.)
+                </p>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

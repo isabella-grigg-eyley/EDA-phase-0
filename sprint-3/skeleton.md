@@ -1,0 +1,3 @@
+What happens to the layout when you resize the screen to less than 550 px. How do you think that works?
+
+    It activates the CSS ruleset for media queries, starting with the rules under @media (min-width: 550px), then advancing to the rules for 750px, 1000px, etc. as appropriate. As for the grid layout, by default each column div stacks vertically. Over 550px, the media query ruleset activates and the width of each column is changed from 100% to whatever is appropriate for it (e.g 8.33%, 16.66%).

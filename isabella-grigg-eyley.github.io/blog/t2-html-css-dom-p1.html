@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog - Isabella Grigg-Eyley</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header class="headerbar">
+        <div id="headertitle">
+            <a href="https://isabella-grigg-eyley.github.io/index.html"><h1>Isabella <strong>Grigg-Eyley</strong></h1></a>
+        </div>
+        <div class="headerbar-right">
+            <nav>
+                <ul>
+                    <li><a href="https://isabella-grigg-eyley.github.io/blog/index.html"><h2>Blogs</h2></a></li>
+                    <li><a href="https://isabella-grigg-eyley.github.io/about.html"><h2>About</h2></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
+        <article class="blog">
+            <header class="title">
+                <h4>CSS Wishlist</h4>
+            </header>
+            <div class="featurelist">
+                <div class="feature">
+                    <div>
+                        <a href="https://rootstudio.co.uk/" class="featurelink"><h4>Root Studio</h4></a>
+                    </div>
+                    <div class="featuredescription">
+                        <img src="../images/rootstudio.png" alt="Root Studio website screenshot" class="featureimage">
+                        <div class="featuretext">
+                            <h5>Features:</h5>
+                            <p>
+                                &bull; Static scrolling header.<br>
+                                &bull; Links with borders that show up on mouseover. <br>
+                                &bull; Images with descriptions that popup on mouseover. <br>
+                                &bull; Looping transparent gif over content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div>
+                        <a href="https://cuberto.com/" class="featurelink"><h4>Cuberto</h4></a>
+                    </div>
+                    <div class="featuredescription">
+                        <img src="../images/cuberto.png" alt="Cuberto website screenshot" class="featureimage">
+                        <div class="featuretext">
+                            <h5>Features:</h5>
+                            <p> 
+                                &bull; Animated background image (Javascript?)<br>
+                                &bull; Expanding nav menu in mobile format. <br>
+                                &bull; Text formatting- overall design has fun campy 50's sci-fi 
+                                vibe while still feeling modern. Probably individual elements 
+                                with clean simple background- minimal clutter. <br>
+                                &bull; Note: Not very responsive. Also has loading 
+                                screens- I found myself exiting the page in impatience. 
+                                Responsiveness > fancy JS elements!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="extrafeatures">
+                <h5>Other features/bugfixes planned:</h5>
+                <ul>
+                    <li>Dropdown menu for blogs link instead of standalone page</li>
+                    <li>Spacing adjusted in header (scale appropriately with media queries)</li>
+                    <li>Header background made opaque</li>
+                    <li>About page added</li>
+                    <li>Fix link hover effect on header links- currently on hover they move slightly</li>
+                    <li>Add dates on blogs in top right corner</li>
+                </ul>
+            </div>
+        </article>
+        <article class="blog">
+            <header class="title">
+                <h4>Technical Blog 1: Udacity Reflection</h4>
+            </header>
+            <div>
+                <h5>Can you think of an analogy to describe HTML, CSS and the DOM? 
+                    How would you describe it to your non-technical friend?</h5>
+                <p>
+                    HTML, CSS and the DOM can be compared to a book. The HTML contains the actual 
+                    content of the book: the title, the story, chapter divisions, etc. CSS 
+                    then is the formatting of the book: will it be hardcover or paperback? 
+                    What does the cover look like and what font and size is the text in 
+                    it? The DOM is the final book after publishing: the printing company 
+                    has taken the guides for content and style and have created a document 
+                    to show how they will actually print it. They also might adjust any 
+                    errors or oversights in the original HTML/CSS if it's imperfect to 
+                    meet their printing standards.
+                </p>
+                <h5>What is meant by boxifying design?</h5>
+                <p>
+                    Every element in an HTML page is contained in a rectangular box of 
+                    some kind. This means that all items on a page can be divided into 
+                    boxes, from header and body all the way down until you've boxed off 
+                    every element. Elements in the same box can be grouped with a "div" 
+                    tag. It also makes designing HTML based on a designer's page mockup 
+                    easier as a process.
+                </p>
+                <h5>What is the box model?</h5>
+                <p>
+                    Each of these boxed elements is wrapped in a series of rectangles. 
+                    First you have the core content, being the element itself. Around that 
+                    you have the padding which is the space between content and border, 
+                    then you have the border which can be transparent or not. Finally 
+                    you have the margin, which is the space between boxed elements.
+                </p>
+                <div>
+                    <img src="../images/boxmodel.png" alt="Box model example image" class="exampleimage">
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

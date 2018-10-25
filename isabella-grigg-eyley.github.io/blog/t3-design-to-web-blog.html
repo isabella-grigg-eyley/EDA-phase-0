@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog - Isabella Grigg-Eyley</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header class="headerbar">
+        <div id="headertitle">
+            <a href="https://isabella-grigg-eyley.github.io/index.html"><h1>Isabella <strong>Grigg-Eyley</strong></h1></a>
+        </div>
+        <div class="headerbar-right">
+            <nav>
+                <ul>
+                    <li><a href="https://isabella-grigg-eyley.github.io/blog/index.html"><h2>Blogs</h2></a></li>
+                    <li><a href="https://isabella-grigg-eyley.github.io/about.html"><h2>About</h2></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
+        <article class="blog">
+            <header class="title">
+                <h4>Technical Blog 3: Responsive Frameworks and Mobile-First Design</h4>
+            </header>
+            <div>
+                <h5>What is a responsive site, and why is responsiveness important?</h5>
+                <p>
+                    A responsive site is one that scales and adjusts itself depending on the size 
+                    and type of screen being used to view it. This is important as users view websites 
+                    on many different kinds of devices, ranging from mobile to desktop monitors, so 
+                    websites need to work on each kind of screen without breaking or becoming 
+                    difficult to use.
+                </p>
+                <h5>What is mobile-first design, and why is it important?</h5>
+                <p>
+                    Mobile-first design is the idea of building your website for mobile scale first 
+                    then expanding out to desktop. It also means that your CSS should default to mobile 
+                    scaling and format, and only when exceeding a certain size go back to desktop proportions. 
+                    It's important because it makes developing a website that works for all sizes of platforms 
+                    much easier: it's easier to make content bigger than to attempt to squish it down 
+                    to mobile size. It also means you're not likely to accidentally have content/HTML/CSS 
+                    that does not work for mobile.
+                </p>
+                <h5>What are frameworks? What are their pros and cons?</h5>
+                <p>
+                    Frameworks are pre-built CSS rulesets and building structures that make developing websites 
+                    simpler. The general pro is that is expedites the process of website development. However 
+                    as it hides some aspect of how the website works from the developers, it can hinder learning.
+                </p>
+                <h5>What is a wireframe and why do we use them?</h5>
+                <p>
+                    Wireframes are a technique used by website designers to work out the layout of content on 
+                    a page without being distracted by design details or colour. They also are an effective 
+                    reference point to develop from for the actual coders, and are a good way to convey website 
+                    design to clients without them getting distracted by other elements.
+                </p>
+                <div class="grid">
+                    <div class="wireframes">
+                        <div id="wfscale">
+                            <img src="../images/Mobile-Index.jpg" alt="Mobile wireframe-index" class="wireframesimg">
+                            <img src="../images/Mobile-Blog.jpg" alt="Mobile wireframe-blog" class="wireframesimg">
+                        </div>
+                        <div>
+                            <h5>What aspect of your wireframes did you find difficult to implement? Why?</h5>
+                            <p>
+                                I found the header bar quite tricky, particularly getting the menu elements to sit correctly 
+                                in it. I will revisit it when I understand CSS a little better and polish it a bit! There were 
+                                also other elements I had planned that I realised later I couldn't implement without Javascript 
+                                (i.e. the hamburger-icon dropdown menu for mobile). Again, when I've worked on Javascript I will 
+                                add that in. (Also, honestly, getting these pictures to sit right took 40 minutes 
+                                and drove me mental!)
+                            </p>
+                            <img src="../images/Desktop-Index.jpg" alt="Desktop wireframe-index" class="wireframesimg">
+                            <img src="../images/Desktop-Blog.jpg" alt="Desktop wireframe-blog" class="wireframesimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
